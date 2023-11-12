@@ -17,10 +17,9 @@ jobs:
         with:
           node-version: 16
 
-      - run: npm cli
-      - run: npm run build
+      - run: npm ci
 
-      - name: Deploy storybook
+      - run: npm run build
 
       - name: Deploy storybook
         working-directory: ./packages/docs
