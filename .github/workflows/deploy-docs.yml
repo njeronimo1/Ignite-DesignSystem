@@ -23,8 +23,8 @@ jobs:
 
       - run: npm run build
         env:
-          TURBO_TOKEN: ${{ secrets.VERCEL_TOKEN }}
-          TURBO_TEAM: my-time-initial
+          TURBO_TOKEN: EYAURnomvHCeRpfbijqH5Qar
+          TURBO_TEAM: todolistswif
 
       - name: Deploy storybook
         working-directory: ./packages/docs
