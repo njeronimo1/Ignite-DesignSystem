@@ -1,5 +1,11 @@
 # @ignite-ui-njeronimo/react
 
+## 5.0.0
+
+### Major Changes
+
+- Include component of Toast
+
 ## 4.0.0
 
 ### Major Changes
